@@ -1590,7 +1590,6 @@ PRODUCT_PACKAGES += \
     libvideotxr \
     libvideoutils \
     libvmfilexfer \
-    libvmmem \
     libwa_cap_refocus \
     libwa_dof \
     libwa_rtdof \
