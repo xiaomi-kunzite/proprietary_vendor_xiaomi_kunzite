@@ -1136,7 +1136,6 @@ PRODUCT_PACKAGES += \
     audio.bluetooth_qti.default \
     camera.qcom \
     com.qti.chi.override \
-    consumerir.qcom \
     libEseUtils \
     libaudiocorehal.default \
     libaudiocorehal.qti \
