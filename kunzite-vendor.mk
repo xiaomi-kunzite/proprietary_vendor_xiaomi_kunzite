@@ -665,30 +665,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/parrot_vertigo_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/parrot_vertigo_lsm6dst_0.json \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/parrot_vertigo_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/parrot_vertigo_lsm6dst_1.json \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/pd9702.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/pd9702.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_ak991x_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_bu52053nvx_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_default_sensors.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_dynamic_sensors.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_hdk_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_hdk_ak991x_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_hdk_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_hdk_lps22hh_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_hdk_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_hdk_lsm6dst_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_hdk_tmd2725_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_hdk_tmd2725_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_irq.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_lps22hh_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_lsm6dst_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_mtp_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_mtp_ak991x_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_mtp_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_mtp_lsm6dst_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_power_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_qrd_ak991x_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_qrd_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_qrd_dynamic_sensors.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_qrd_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_qrd_lps22hh_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_qrd_lsm6dst_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_qrd_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_qrd_sx932x_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_qrd_tmd2725_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_qrd_tmd2725_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_sx932x_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_tmd2725_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_tmd2725_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_vertigo_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_vertigo_ak991x_0.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/ravelin_vertigo_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ravelin_vertigo_lsm6dst_0.json \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/sm6475_ak7323.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm6475_ak7323.json \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/sm6475_aw86033a.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm6475_aw86033a.json \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/sm6475_pd9702.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm6475_pd9702.json \
