@@ -1861,6 +1861,7 @@ PRODUCT_PACKAGES += \
     libmlipay \
     libwvkeybox \
     sensors.ultrasoundproximity \
+    com.google.android.widevine.nonupdatable \
     CACertService \
     CneApp \
     IWlanService \

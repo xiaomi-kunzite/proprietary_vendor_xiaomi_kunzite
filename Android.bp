@@ -27861,6 +27861,14 @@ cc_prebuilt_library_shared {
     device_specific: true,
 }
 
+prebuilt_apex {
+    name: "com.google.android.widevine.nonupdatable",
+    owner: "xiaomi",
+    src: "proprietary/vendor/apex/com.google.android.widevine.nonupdatable.apex",
+    filename: "com.google.android.widevine.nonupdatable.apex",
+    soc_specific: true,
+}
+
 android_app_import {
     name: "CACertService",
     owner: "xiaomi",
