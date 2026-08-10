@@ -1215,6 +1215,8 @@ PRODUCT_PACKAGES += \
     libbtnv \
     libc++_shared \
     libcacertclient \
+    libcalculator \
+    libcalculator_htp \
     libcamera_nn_stub \
     libcamera_scene \
     libcameraopt \
@@ -1249,6 +1251,7 @@ PRODUCT_PACKAGES += \
     libcneoplookup \
     libcneqmiutils \
     libcom.qti.chinodeutils \
+    libcom.xiaomi.metadatautils \
     libcom.xiaomi.pluginutils \
     libconfigdb \
     libcpion \

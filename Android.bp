@@ -8843,6 +8843,56 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libcalculator",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcalculator.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcdsprpc",
+                "libm",
+                "libc",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcalculator_htp",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcalculator_htp.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcdsprpc",
+                "libm",
+                "libc",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libcamera_nn_stub",
     owner: "xiaomi",
     strip: {
@@ -9878,6 +9928,35 @@ cc_prebuilt_library_shared {
                 "libcamximageformatutils",
                 "libchilog",
                 "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcom.xiaomi.metadatautils",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcom.xiaomi.metadatautils.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libcom.xiaomi.pluginutils",
                 "libc++",
                 "libc",
                 "libm",
