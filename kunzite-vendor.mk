@@ -1999,6 +1999,7 @@ PRODUCT_PACKAGES += \
     init.qti.kernel.early_debug-parrot \
     init.qti.kernel.early_debug \
     init.qti.kernel \
+    init.qti.media \
     init.qti.qcv \
     init.qti.write \
     irsc_util \
