@@ -446,6 +446,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/displayconfig/display_id_4630946494833437058.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946494833437058.xml \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/displayconfig/display_id_4630946610401717122.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946610401717122.xml \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/displayconfig/display_id_4630946832425270402.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946832425270402.xml \
+    vendor/xiaomi/kunzite/proprietary/vendor/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default-spatializer.xml \
+    vendor/xiaomi/kunzite/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/dpm_vndr/vendor.dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm_vndr/vendor.dpm.conf \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
@@ -460,6 +462,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
+    vendor/xiaomi/kunzite/proprietary/vendor/etc/init/dms-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dms-service.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/feature_enabler_client.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/feature_enabler_client.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/hw/init.qti.kernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/hw/init.qti.kernel.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.target.rc \
@@ -499,6 +502,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/snapdragon_services.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snapdragon_services.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/tlpd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tlpd.rc \
+    vendor/xiaomi/kunzite/proprietary/vendor/etc/init/vendor.dolby.media.c2-default-service-dax.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2-default-service-dax.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/vendor.qsap.location.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.location.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/vendor.qsap.qapeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.qapeservice.rc \
@@ -543,6 +547,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/lm/prekill/prekill_4GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_4GB.data \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/lm/prekill/prekill_6GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_6GB.data \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
+    vendor/xiaomi/kunzite/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/media_codecs_parrot_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_parrot_v0.xml \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/media_codecs_parrot_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_parrot_v1.xml \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/media_codecs_parrot_v2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_parrot_v2.xml \
@@ -1250,12 +1255,17 @@ PRODUCT_PACKAGES += \
     libcneapiclient \
     libcneoplookup \
     libcneqmiutils \
+    libcodec2_soft_ac4dec \
+    libcodec2_soft_ddpdec \
+    libcodec2_store_dolby \
     libcom.qti.chinodeutils \
     libcom.xiaomi.metadatautils \
     libcom.xiaomi.pluginutils \
     libconfigdb \
     libcpion \
+    libdapparamstorage \
     libdataitems \
+    libdeccfg \
     libdepthcomputation \
     libdiag \
     libdiagjni \
@@ -1263,6 +1273,9 @@ PRODUCT_PACKAGES += \
     libdisp-aba \
     libdisplayqos \
     libdisplayskuutils \
+    libdlbdsservice \
+    libdlbpreg \
+    libdmshal \
     libdpps \
     libdrmfs \
     libdrmtime \
@@ -1643,10 +1656,15 @@ PRODUCT_PACKAGES += \
     libsw2dlut_dsp_skel \
     sensors.ssc \
     sensors.touch.detect \
+    libdlbvolaidl \
+    libhwdapaidl \
+    libswgamedapaidl \
     tms-cos-dl-common \
     tms-cos-dl-ree \
     tms-utils \
     vendor.display.postproc@1.0 \
+    vendor.dolby.dms-V1-ndk \
+    vendor.dolby.hardware.dms@2.0 \
     vendor.libdpmctmgr \
     vendor.libdpmfdmgr \
     vendor.libdpmframework \
@@ -1915,6 +1933,7 @@ PRODUCT_PACKAGES += \
     cacert-saidl.xml \
     datafactoryservice-saidl.xml \
     deviceinfo-saidl.xml \
+    dms-service.xml \
     dpm-saidl.xml \
     imsdcservice-saidl.xml \
     manifest_btaudiocoreservices_qti.xml \
@@ -1924,6 +1943,7 @@ PRODUCT_PACKAGES += \
     qms-saidl.xml \
     snapdragon_services.xml \
     vendor-qti-hardware-sensorscalibrate.xml \
+    vendor.dolby.media.c2-default-service-dax.xml \
     vendor.qti.camera.postproc-impl.xml \
     vendor.qti.camera.provider.xml \
     vendor.qti.diag.hal.service.xml \
@@ -1973,6 +1993,8 @@ PRODUCT_PACKAGES += \
     android.hardware.weaver-service-spu-qti \
     mifaced \
     qcrilNrd \
+    vendor.dolby.dms.service \
+    vendor.dolby.media.c2-default-service-dax \
     vendor.qti.camera.provider-service_64 \
     vendor.qti.hardware.alarm-service \
     vendor.qti.hardware.capabilityconfigstore-service \
