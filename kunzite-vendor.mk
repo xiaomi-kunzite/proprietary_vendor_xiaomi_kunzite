@@ -483,7 +483,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/init.vendor.wlan.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.wlan.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/init_thermal-engine-v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine-v2.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/init/miface.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/miface.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/nfc-service-tms.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nfc-service-tms.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/nicmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nicmd.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
@@ -1371,7 +1370,6 @@ PRODUCT_PACKAGES += \
     libmialgo_utils \
     libmialgoengine \
     libmialgoengine2 \
-    libmiface \
     libmikaraoke \
     libminkdescriptor \
     libminksocket_vendor \
@@ -1936,7 +1934,6 @@ PRODUCT_PACKAGES += \
     dpm-saidl.xml \
     imsdcservice-saidl.xml \
     manifest_btaudiocoreservices_qti.xml \
-    miface.xml \
     mwqem-saidl.xml \
     qesdk-manager.xml \
     qms-saidl.xml \
@@ -1990,7 +1987,6 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc-service-tms \
     android.hardware.security.keymint-service-qti \
     android.hardware.weaver-service-spu-qti \
-    mifaced \
     qcrilNrd \
     vendor.dolby.dms.service \
     vendor.dolby.media.c2-default-service-dax \
