@@ -10,12 +10,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kunzite/proprietary/odm/etc/display/qdcm_calib_data_dsi_p17_35_0F_0b_amoled_video_mode_dsi_panel_with_DSC.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_dsi_p17_35_0F_0b_amoled_video_mode_dsi_panel_with_DSC.json \
     vendor/xiaomi/kunzite/proprietary/odm/etc/display/qdcm_calib_data_dsi_p17_41_02_0a_amoled_video_mode_dsi_panel_with_DSC.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_dsi_p17_41_02_0a_amoled_video_mode_dsi_panel_with_DSC.json \
     vendor/xiaomi/kunzite/proprietary/odm/etc/display/qdcm_calib_data_dsi_p17_41_0F_0c_amoled_video_mode_dsi_panel_with_DSC.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_dsi_p17_41_0F_0c_amoled_video_mode_dsi_panel_with_DSC.json \
-    vendor/xiaomi/kunzite/proprietary/odm/etc/dsi_p17_35_0F_0b_amoled_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/dsi_p17_35_0F_0b_amoled_dsc_vid_mi.xml \
-    vendor/xiaomi/kunzite/proprietary/odm/etc/dsi_p17_41_02_0a_amoled_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/dsi_p17_41_02_0a_amoled_dsc_vid_mi.xml \
-    vendor/xiaomi/kunzite/proprietary/odm/etc/dsi_p17_41_0F_0c_amoled_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/dsi_p17_41_0F_0c_amoled_dsc_vid_mi.xml \
     vendor/xiaomi/kunzite/proprietary/odm/etc/init/init.boled.lightsensor.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.boled.lightsensor.rc \
     vendor/xiaomi/kunzite/proprietary/odm/etc/init/vendor.xiaomi.hardware.mlipay-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mlipay-service.rc \
     vendor/xiaomi/kunzite/proprietary/odm/etc/init/vendor.xiaomi.hw.touchfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hw.touchfeature-service.rc \
+    vendor/xiaomi/kunzite/proprietary/odm/etc/mdss_dsi_p17_35_0F_0b_amoled_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_p17_35_0F_0b_amoled_dsc_vid_mi.xml \
+    vendor/xiaomi/kunzite/proprietary/odm/etc/mdss_dsi_p17_41_02_0a_amoled_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_p17_41_02_0a_amoled_dsc_vid_mi.xml \
+    vendor/xiaomi/kunzite/proprietary/odm/etc/mdss_dsi_p17_41_0F_0c_amoled_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_p17_41_0F_0c_amoled_dsc_vid_mi.xml \
     vendor/xiaomi/kunzite/proprietary/odm/etc/me_config.xml:$(TARGET_COPY_OUT_ODM)/etc/me_config.xml \
     vendor/xiaomi/kunzite/proprietary/odm/firmware/Conf_MultipleTest.ini:$(TARGET_COPY_OUT_ODM)/firmware/Conf_MultipleTest.ini \
     vendor/xiaomi/kunzite/proprietary/odm/firmware/focaltech_ts_fw_boe.bin:$(TARGET_COPY_OUT_ODM)/firmware/focaltech_ts_fw_boe.bin \
