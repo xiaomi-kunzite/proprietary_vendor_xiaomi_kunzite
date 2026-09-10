@@ -718,6 +718,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
+    vendor/xiaomi/kunzite/proprietary/vendor/etc/sixth_param/sixth_param_boost0.txt:$(TARGET_COPY_OUT_VENDOR)/etc/sixth_param/sixth_param_boost0.txt \
+    vendor/xiaomi/kunzite/proprietary/vendor/etc/sixth_param/sixth_param_boost1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/sixth_param/sixth_param_boost1.txt \
+    vendor/xiaomi/kunzite/proprietary/vendor/etc/sixth_param/sixth_param_boost2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/sixth_param/sixth_param_boost2.txt \
+    vendor/xiaomi/kunzite/proprietary/vendor/etc/sixth_wrapper_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sixth_wrapper_cfg.xml \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/stub_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/stub_audio_policy_configuration.xml \
