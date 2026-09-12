@@ -10543,7 +10543,6 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libdisp-aba",
                 "libqdutils",
-                "libsdmutils",
                 "libutils",
                 "liblog",
                 "libbinder",
@@ -22161,34 +22160,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.display.postproc@1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.display.postproc@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.dolby.dms-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -29609,40 +29580,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "feature_enabler_client",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/feature_enabler_client",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libhidlbase",
-                "libminkdescriptor",
-                "libbinder",
-                "libdrm",
-                "libqdutils",
-                "libdmabufheap",
-                "libQSEEComAPI",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "hdcp1prov",
     owner: "xiaomi",
     target: {
@@ -31398,6 +31335,7 @@ cc_prebuilt_binary {
                 "android.hardware.graphics.mapper@4.0",
                 "android.hardware.graphics.common@1.2",
                 "vendor.qti.hardware.display.config-V5-ndk",
+                "libvndksupport",
                 "libc++",
                 "libc",
                 "libm",

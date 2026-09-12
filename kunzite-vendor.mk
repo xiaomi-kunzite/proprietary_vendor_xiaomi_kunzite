@@ -462,7 +462,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/dms-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dms-service.rc \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/init/feature_enabler_client.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/feature_enabler_client.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/hw/init.qti.kernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/hw/init.qti.kernel.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.target.rc \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/init/hw/init.qti.ufs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.ufs.rc \
@@ -1662,7 +1661,6 @@ PRODUCT_PACKAGES += \
     tms-cos-dl-common \
     tms-cos-dl-ree \
     tms-utils \
-    vendor.display.postproc@1.0 \
     vendor.dolby.dms-V1-ndk \
     vendor.dolby.hardware.dms@2.0 \
     vendor.libdpmctmgr \
@@ -1980,7 +1978,6 @@ PRODUCT_PACKAGES += \
     edgnss-daemon \
     embmsslServer \
     engine-service \
-    feature_enabler_client \
     hdcp1prov \
     hdcp2p2prov \
     android.hardware.bluetooth@aidl-service-qti \
