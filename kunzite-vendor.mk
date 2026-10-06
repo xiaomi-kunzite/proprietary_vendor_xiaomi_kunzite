@@ -17,6 +17,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kunzite/proprietary/odm/etc/mdss_dsi_p17_41_02_0a_amoled_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_p17_41_02_0a_amoled_dsc_vid_mi.xml \
     vendor/xiaomi/kunzite/proprietary/odm/etc/mdss_dsi_p17_41_0F_0c_amoled_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_p17_41_0F_0c_amoled_dsc_vid_mi.xml \
     vendor/xiaomi/kunzite/proprietary/odm/etc/me_config.xml:$(TARGET_COPY_OUT_ODM)/etc/me_config.xml \
+    vendor/xiaomi/kunzite/proprietary/odm/etc/sensors/lightSensorConfig.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/lightSensorConfig.json \
+    vendor/xiaomi/kunzite/proprietary/odm/etc/sensors/lightSensorConfigFourth.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/lightSensorConfigFourth.json \
+    vendor/xiaomi/kunzite/proprietary/odm/etc/sensors/lightSensorConfigSec.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/lightSensorConfigSec.json \
+    vendor/xiaomi/kunzite/proprietary/odm/etc/sensors/lightSensorConfigThird.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/lightSensorConfigThird.json \
     vendor/xiaomi/kunzite/proprietary/odm/firmware/Conf_MultipleTest.ini:$(TARGET_COPY_OUT_ODM)/firmware/Conf_MultipleTest.ini \
     vendor/xiaomi/kunzite/proprietary/odm/firmware/focaltech_ts_fw_boe.bin:$(TARGET_COPY_OUT_ODM)/firmware/focaltech_ts_fw_boe.bin \
     vendor/xiaomi/kunzite/proprietary/odm/firmware/goodix_3rd_cfg_group.bin:$(TARGET_COPY_OUT_ODM)/firmware/goodix_3rd_cfg_group.bin \
