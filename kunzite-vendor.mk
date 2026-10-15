@@ -549,15 +549,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/media_codecs_parrot_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_parrot_v0.xml \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/media_codecs_parrot_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_parrot_v1.xml \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/media_codecs_parrot_v2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_parrot_v2.xml \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/media_codecs_performance_parrot_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_parrot_v0.xml \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/media_codecs_performance_parrot_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_parrot_v1.xml \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/media_codecs_performance_parrot_v2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_parrot_v2.xml \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/media_parrot_v0/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_parrot_v0/video_system_specs.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/media_parrot_v1/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_parrot_v1/video_system_specs.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/media_parrot_v2/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_parrot_v2/video_system_specs.json \
-    vendor/xiaomi/kunzite/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
+    vendor/xiaomi/kunzite/proprietary/vendor/etc/media_profiles_parrot_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_parrot_v0.xml \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/models/acd/music.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/music.eai \
     vendor/xiaomi/kunzite/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
